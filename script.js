@@ -6,13 +6,6 @@ $('button').click (() => {
 
 
 $('ul').click(function(event) {
-    $(event.target).css('text-decoration-line','line-through');
+    $(event.target).css('text-decoration','line-through');
 });
 
-
-
-/*
-$('li').click(function(event) {
-    $(event.target).css('text-decoration-line','line-through');
-});
-*/
